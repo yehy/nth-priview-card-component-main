@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  
+
+  <div class="container" id="container">
+    <div class="card" >
+      
+      <div class="image-popup" id="popup">
+        <img src="images/image-equilibrium.jpg" alt="" id="imgPopup">
+      </div>
+
+      <div class="img" data-popup-show="#popup">
+        <img src="images/image-equilibrium.jpg" alt="" class="src">
+        <img src="images/icon-view.svg" alt="" class="">
+      </div>
+      
+      <div class="discription">
+
+        <h2><a href="#" class="image-title">Equilibrium #3429</a></h2>
+
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="currncy-days">
+
+          <div>
+            <img src="images/icon-ethereum.svg" alt="">
+            <p> 0.041 ETH</p>
+          </div>
+          
+          <div>
+            <img src="images/icon-clock.svg" alt=""> 
+            <p>3 days left</p></div>
+          </div>
+
+        </div>
+      <div class="creation">
+        <img src="images/image-avatar.png" alt="">
+        <p>Creation of <span><a href="#" class="link">Jules Wyvern</a></span></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="overlay"></div>
+  
+  
+  <script src="java.js"></script>
+</body>
+</html>
