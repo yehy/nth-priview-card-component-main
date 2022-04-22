@@ -7,6 +7,9 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
   background: var(--Very-dark-blue-main-BG);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
 }
 
 :root {
@@ -20,13 +23,6 @@ body {
   --White: hsl(0, 0%, 100%);
 }
 
-.container {
-  min-height: 100vh;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  transition: 0.5s;
-}
 
 /* start popup */
 
